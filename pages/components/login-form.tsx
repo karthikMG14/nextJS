@@ -9,7 +9,7 @@ interface Values {
 export default function LoginForm() {
     return (
       <div className={styles.login_box + ' p-3'}>
-        <h1 className="display-6 mb-3">Login</h1>
+        <h1 className="display-6 mb-3">Login Page</h1>
         <Formik
           initialValues={{
             username: '',
